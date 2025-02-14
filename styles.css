@@ -1,20 +1,26 @@
 body {
     margin: 20px;
-
+    background-color: #FBFCFB;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 h3{
-    /* margin: 0; */
+    margin: 8px 0 0 0; 
     line-height: 0;
+}
+
+h4 {
+    margin: 12px 0 24px 0;
+    line-height: 1.5;
 }
 
 label {
     line-height: 1.5;
+    /* justify-content: center; */
 }
 
 a {
-    color: turquoise;
+    color: #0077B5;
     text-decoration: none;
     border-bottom: 1px solid smoke;
 }
@@ -22,22 +28,23 @@ a {
 .profile-img {
     width: 150px;
     height: 100%;
-    border-radius: 8px;
+    border-radius: 12px;
+    /* border: 2px solid black; */
     margin-right: 24px;
 }
 
 .card {
     width: 400px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 24px;
     /* display: flex; */
     /* justify-content: center; */
     /* text-align: center; */
-    background: #4056A1;
-    color: #f5f3f4;
-    border-bottom: 8px solid #660708;
-    border-radius: 15px;
-    /* flex-direction: row-reverse; */
+    background: #F3F6F4;
+    color: #002913;
+    border: 1px solid #D0D5DD;
+    border-bottom: 4px solid #D0D5DD;
+    border-radius: 24px;
     box-shadow: 0px 4px 5px #d3d3d3;
     /* align-items: center; */
     
@@ -45,14 +52,26 @@ a {
 }
 .upper-section{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-bottom: 24px;
 }
 
+/* .upper-right {
+    border: 2px solid black;
+} */
+
 .card:hover {
-  background-color: #a4161a;
-  border-bottom: 8px solid #ba181b;
+  background-color: #FBFCFB;
+  border: 1px solid goldenrod;
+  border-bottom: 4px solid goldenrod;
+  box-shadow: 0 16px 28px rgb(187, 187, 187);
+  animation: tada;
+  animation-duration: 2s;
 }
+
+/* .animate__jello{
+    animation: jello 2s; 
+} */
 
 .con-link {
     text-align: center;
@@ -60,26 +79,3 @@ a {
     padding-top: 24px;
 }
 
-
-
-.border-blue {
-    border: 1px dotted blue;
-}
-
-/*
-Stretch goals:
-Find other ways you can personalize 
-the design of your business card, e.g.:
-- change the border(s)
-- add border radius
-- shuffle the layout
-- shadows        🤯
-- hover effects  🤯🤯
-- animations     🤯🤯🤯
-*/
-
-/*
-Final challenge:
-Download the code to your local computer and place it
-in a folder called "business-card"
-*/
