@@ -36,14 +36,15 @@ a {
     border-radius: 12px;
     /* border: 2px solid black; */
     margin-right: 24px;
-}s
+}
+
 
 .card {
     width: 400px;
     margin: 0 auto;
     padding: 24px;
     /* display: flex; */
-    /* justify-content: center; */
+    justify-content: center;
     /* text-align: center; */
     background: #F3F6F4;
     color: #002913;
@@ -53,7 +54,17 @@ a {
     box-shadow: 0px 4px 5px #d3d3d3;
     /* align-items: center; */  
 
-}
+} 
+
+.card:hover {
+    background-color: #FBFCFB;
+    border: 1px solid goldenrod;
+    border-bottom: 4px solid goldenrod;
+    box-shadow: 0 16px 28px rgb(187, 187, 187);
+    animation: tada;
+    animation-duration: 2s;
+    padding: 24px;
+  }
 
 .upper-section{
     display: flex;
@@ -61,18 +72,11 @@ a {
     margin-bottom: 24px;
 }
 
-/* .upper-right {
-    border: 2px solid black;
-} */
-
-.card:hover {
-  background-color: #FBFCFB;
-  border: 1px solid goldenrod;
-  border-bottom: 4px solid goldenrod;
-  box-shadow: 0 16px 28px rgb(187, 187, 187);
-  animation: tada;
-  animation-duration: 2s;
+.upper-right {
+    /* border: 2px solid black; */
 }
+
+
 
 /* .animate__jello{
     animation: jello 2s; 
@@ -96,15 +100,15 @@ a {
         margin: 0 auto;
         padding: 24px;
         /* display: flex; */
-        /* justify-content: center; */
-        /* text-align: center; */
-        background: #F3F6F4;
+        justify-content: center;
+        text-align: center;
+         background: #F3F6F4;
         color: #002913;
         border: 1px solid #D0D5DD;
         border-bottom: 4px solid #D0D5DD;
         border-radius: 24px;
         box-shadow: 0px 4px 5px #d3d3d3;
-        /* align-items: center; */  
+        /* align-items: center; */ 
     
     }
 
@@ -122,7 +126,7 @@ a {
     
     label {
         line-height: 1.5;
-        /* justify-content: center; */
+        /* justify-content: center; */ 
         font-size: 20px;
     }
     
@@ -134,7 +138,7 @@ a {
     
     #more_info a {
         color: #002913;
-        /* text-decoration: none; */
+        /* text-decoration: none; */ 
     }
     
     .profile-img {
@@ -153,4 +157,4 @@ a {
         animation: tada;
         animation-duration: 2s;
       }
-}  
+} 
