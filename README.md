@@ -2,7 +2,7 @@
 
 ## About Bright
 
-Hi! I'm Bright. An incoming UX Engineer currently relearning some tools like html, css and javascript. This current project is a business card I made based off the tutorials from scrimba.
+Hi! I'm Bright. This project is a business card I made based off the tutorials from scrimba. I might have revamped it a little bit with animations and shadows. Great experience working around css animations.
 
 ABOUT SCRIMBA
 At Scrimba, the goal is to create the best possible coding school at the cost of a gym membership! 💜
