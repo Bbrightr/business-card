@@ -36,7 +36,7 @@ a {
     border-radius: 12px;
     /* border: 2px solid black; */
     margin-right: 24px;
-}
+}s
 
 .card {
     width: 400px;
@@ -91,7 +91,7 @@ a {
     }
         
     .card {
-        width: 300px;
+        width: 900px;
         margin: 0;
         padding: 24px;
         /* display: flex; */
