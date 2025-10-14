@@ -12,6 +12,7 @@ h3{
 h4 {
     margin: 12px 0 24px 0;
     line-height: 1.5;
+    text-align: left;
 }
 
 label {
@@ -88,10 +89,15 @@ a {
     padding-top: 24px;
 }
 
+.furtherinfo {
+    text-align: left;
+}
+
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     body {
         margin: 20px;
+        text-align: left;
 
     }
         
