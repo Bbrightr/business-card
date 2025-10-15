@@ -65,8 +65,8 @@ a {
 
 .card:hover {
     background-color: #FBFCFB;
-    border: 1px solid goldenrod;
-    border-bottom: 4px solid goldenrod;
+    border: 1px solid #2e3b68;
+    border-bottom: 4px solid #2e3b68;
     box-shadow: 0 16px 28px rgb(187, 187, 187);
     animation: tada;
     animation-duration: 2s;
@@ -121,6 +121,12 @@ a {
         border-radius: 24px;
         box-shadow: 0px 4px 5px #d3d3d3;
         /* align-items: center; */ 
+        background-image: url(images/background-image.png);
+        background-size: 100px auto;
+        background-repeat: no-repeat;
+        /* background-position:bottom; */
+        background-position-x: right;
+        background-position-y: bottom;
     
     }
 
@@ -163,8 +169,8 @@ a {
     
     .card:hover {
         background-color: #FBFCFB;
-        border: 1px solid goldenrod;
-        border-bottom: 4px solid goldenrod;
+        border: 1px solid #2e3b68;
+        border-bottom: 4px solid #2e3b68;
         box-shadow: 0 16px 28px rgb(187, 187, 187);
         animation: tada;
         animation-duration: 2s;
